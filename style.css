@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	display: flex ;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 0 50px;
+}
+
+#app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 1020px;
+}
+
+.project {
+	border-radius: 5px;
+	color: #333;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px;
+	width: 300px;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.project:hover {
+	background-color: #f0f0f0;
+	transform: scale(1.05);
+}
+
+.project img {
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+/* SOCIAL PANEL CSS */
+.social-panel-container {
+	position: fixed;
+	right: 0;
+	bottom: 80px;
+	transform: translateX(100%);
+	transition: transform 0.4s ease-in-out;
+}
+
+.social-panel-container.visible {
+	transform: translateX(-10px);
+}
+
+.social-panel {	
+	/* background-color: #fff; */
+	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+	/* border: 5px solid #ddd;
+	border-image: -webkit-linear-gradient(rgba(74,105,187,1) ,rgba(205,77,204,1) , rgba(74,105,187,1))1 10 1;
+	border-image: -moz-linear-gradient(rgba(74,105,187,1) ,rgba(205,77,204,1) , rgba(74,105,187,1))1 10 1;
+	border-image: linear-gradient(rgba(74,105,187,1) ,rgba(205,77,204,1) , rgba(74,105,187,1))1 10 1; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Muli';
+	position: relative;
+	height: 169px;	
+	width: 370px;
+	max-width: calc(100% - 10px);
+	display: block;
+  	margin-top: 20px;
+  	position: relative;
+  	border-radius: 2em;
+  	padding: 1em 2em;
+  	background: #fff;
+}
+.social-panel:after{
+	position: absolute;
+	z-index: -1;
+	top: -3px; bottom: -3px;
+	right: -3px; left: -3px;
+	background-image: linear-gradient( 111.3deg,  rgba(74,105,187,1) 9.6%, rgba(205,77,204,1) 93.6% );
+	border-radius: 2em;
+	content: '';
+}
+
+.social-panel button.close-btn {
+	border: 0;
+	color: #97A5CE;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.social-panel button.close-btn:focus {
+	outline: none;
+}
+
+.social-panel p {
+	background-color: #98d7e5;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 2px 17px 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 0;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 235px;
+}
+
+.social-panel p i {
+	margin: 0 5px;
+}
+
+.social-panel p a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+.social-panel h4 {
+	margin: 20px 0;
+	color: #97A5CE;	
+	font-family: 'Muli';	
+	font-size: 14px;	
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.social-panel ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-panel ul li {
+	margin: 0 10px;
+}
+
+.social-panel ul li a {
+	border: 1px solid #DCE1F2;
+	border-radius: 50%;
+	color: #98d7e5;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
+
+.social-panel ul li a:hover {
+	border-color: #FF6A00;
+	box-shadow: 0 9px 12px -9px #FF6A00;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-image: linear-gradient( 111.3deg,  rgba(74,105,187,1) 9.6%, rgba(205,77,204,1) 93.6% );
+	/* background-color: #98d7e5; */
+	border: 1px solid  #4a68bb6c ;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #98d7e5;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+/* .floating-text {
+	background-color: #98d7e5;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #Fb8570;
+	text-decoration: none;
+} */
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
+
+.link-icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.icon-right{
+	margin-right: -6px;
+}
