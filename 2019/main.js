@@ -254,9 +254,12 @@ projects.forEach(project => {
 	projectEl.target = '_blank';
 
 	projectEl.innerHTML = `
-        <img src="${project.demoImg}" alt="${title}"/>
+		<div class="project-border-div" title="${title}">
+		</div>
+		<img src="${project.demoImg}" alt="${title}"/>
+		
 		<p>
-			${title}
+			
 		</p>
     `;
 
