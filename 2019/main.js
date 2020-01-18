@@ -249,10 +249,9 @@ projects.forEach(project => {
 	const imgURL = imgBaseURL + project.nr + '.jpg';
 	
 	const projectEl = document.createElement('a');
-	projectEl.classList.add('project');
+	projectEl.classList.add('project','project-border');
 	projectEl.href = project.link;
 	projectEl.target = '_blank';
-	const imgURLNew = 'https://s2.ax1x.com/2020/01/16/ljjhWD.jpg'
 
 	projectEl.innerHTML = `
         <img src="${project.demoImg}" alt="${title}"/>
