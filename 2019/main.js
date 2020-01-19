@@ -1,16 +1,17 @@
 const projects =[
 	{
 		nr: '001',
-		name: 'login jump',
-		link: 'https://ofeii.github.io/demo2019/2019/',
-		demoImg:'https://s2.ax1x.com/2020/01/16/lxmmhF.gif'
+		name: 'icon-sunny',
+		link: 'https://codepen.io/OFEII/full/bXGWmj',
+		demoImg:'https://s2.ax1x.com/2020/01/16/lxdep9.png'
 	},
 	{
 		nr: '002',
-		name: '3d btn',
-		link: 'https://ofeii.github.io/demo-senior/3d-btn/',
-		demoImg:'https://s2.ax1x.com/2020/01/16/lxmiXn.png'
+		name: 'icon-cloudy',
+		link: 'https://codepen.io/OFEII/full/bXGRvX',
+		demoImg:'https://s2.ax1x.com/2020/01/16/lxdEY4.png'
 	},
+	
 	{
 		nr: '003',
 		name: '3d flip btn',
@@ -202,18 +203,17 @@ const projects =[
 		name: 'fitch img',
 		link: 'https://codepen.io/OFEII/full/VNKVQG',
 		demoImg:'https://s2.ax1x.com/2020/01/16/lxdmlR.png'
-	},
-	{
+	},{
 		nr: '035',
-		name: 'icon-sunny',
-		link: 'https://codepen.io/OFEII/full/bXGWmj',
-		demoImg:'https://s2.ax1x.com/2020/01/16/lxdep9.png'
+		name: 'login jump',
+		link: 'https://ofeii.github.io/demo2019/2019/',
+		demoImg:'https://s2.ax1x.com/2020/01/16/lxmmhF.gif'
 	},
 	{
 		nr: '036',
-		name: 'icon-cloudy',
-		link: 'https://codepen.io/OFEII/full/bXGRvX',
-		demoImg:'https://s2.ax1x.com/2020/01/16/lxdEY4.png'
+		name: '3d btn',
+		link: 'https://ofeii.github.io/demo-senior/3d-btn/',
+		demoImg:'https://s2.ax1x.com/2020/01/16/lxmiXn.png'
 	},
 	{
 		nr: '037',
