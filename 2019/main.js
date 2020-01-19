@@ -2,13 +2,13 @@ const projects =[
 	{
 		nr: '001',
 		name: 'icon-sunny',
-		link: 'https://codepen.io/OFEII/full/bXGWmj',
+		link: 'https://ofeii.github.io/demo-senior/icon-weather/sunny/',
 		demoImg:'https://s2.ax1x.com/2020/01/16/lxdep9.png'
 	},
 	{
 		nr: '002',
 		name: 'icon-cloudy',
-		link: 'https://codepen.io/OFEII/full/bXGRvX',
+		link: 'https://ofeii.github.io/demo-senior/icon-weather/cloudy',
 		demoImg:'https://s2.ax1x.com/2020/01/16/lxdEY4.png'
 	},
 	
