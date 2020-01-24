@@ -137,7 +137,9 @@ var onClick = function() {
 	phraseChinese2.textContent = phrasesC2[Math.floor(random * phrasesC2.length)];
 	phraseChinese3.textContent = phrasesC3[Math.floor(random * phrasesC3.length)];
 	phraseChinese4.textContent = phrasesC4[Math.floor(random * phrasesC4.length)];
-	phraseEnglish.textContent = phrasesE[Math.floor(random * phrasesE.length)];
+    phraseEnglish.textContent = phrasesE[Math.floor(random * phrasesE.length)];
+    
+    document.getElementById("button").style.width = "300px";
 }
 
 // Sets text content as random phrase when button is clicked
