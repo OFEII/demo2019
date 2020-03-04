@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    height: 100vh;
+}
+.logo{
+    color: #fff;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transform: translate(-50%, -50%);
+}
+/* span{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    background: #000000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-shadow: 1rem 1rem 3rem #489dcf,
+                -1rem -1rem 3rem #62d5ff;
+    animation: blow 4s ease-in-out infinite;
+} */
+span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2rem;
+    height: 2rem;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: blow 4s ease-in-out infinite;
+    box-shadow: .5rem 1rem #8e1a19, 45px 15px #ac0500, 75px 15px #f73f0c, 90px 15px #fa5f27, 15px 30px #740100, 30px 30px #8e0500, 45px 30px #8e1918, 60px 30px #ca1300, 75px 30px #f34f2b, 90px 30px #df351f, 105px 30px #f77c2a, 15px 45px #4b0000, 30px 45px #690100, 45px 45px #8e0f0b, 60px 45px #bf1000, 75px 45px #f84010, 90px 45px #f04222, 105px 45px #fa5724, 15px 60px #451312, 30px 60px #5a0100, 45px 60px #840e0c, 60px 60px #a51d1a, 75px 60px #ed2805, 90px 60px #d9321e, 105px 60px #f44622, 30px 75px #3b0000, 45px 75px #5d1a1b, 60px 75px #8e1a19, 75px 75px #a80700, 90px 75px #b90a00, 45px 90px #3d0000, 60px 90px #551415, 75px 90px #670100, 60px 105px #340000;
+}
+@keyframes blow{
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: .8;
+        filter:  hue-rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -618%);
+        opacity: 0;
+        filter:  hue-rotate(720deg);
+    }
+}

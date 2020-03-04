@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #83b4d4;
+    height: 100vh;
+}
+#text{
+    position: relative;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10rem;
+    /* font-style: italic; */
+    width: 100%;
+    text-align: center;
+}
