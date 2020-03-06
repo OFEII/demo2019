@@ -240,7 +240,7 @@ var Header = function (_React$Component5) {
 			React.createElement(
 				'h1',
 				null,
-				' React Flip Clock'
+				''
 			)
 		);
 	};
